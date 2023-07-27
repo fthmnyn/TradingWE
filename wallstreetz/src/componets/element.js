@@ -4,17 +4,17 @@ const Element = () => {
   return (
     <div className="stock-market" style={{
         WebkitFontSmoothing: 'antialiased',
-        color: '#181B31',
-        fontSize: '0.875rem',
-        fontWeight: 400,
-        lineHeight: 1.43,
-        boxSizing: 'inherit',
-        fontFamily: 'inherit',
-        position: 'relative',
-        paddingTop: '60px',
-        paddingBottom: '80px',
-        backgroundColor: '#FAFBFF',
-        marginBottom: '68px',
+  color: '#181B31',
+  fontSize: '0.875rem',
+  fontWeight: 400,
+  lineHeight: 1.43,
+  boxSizing: 'inherit',
+  fontFamily: 'inherit',
+  position: 'relative',
+  paddingTop: '60px',
+  paddingBottom: '80px',
+  backgroundColor: '#FAFBFF',
+  marginBottom: '68px',
       }}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" className="background-svg" style={{
          WebkitFontSmoothing: 'antialiased',

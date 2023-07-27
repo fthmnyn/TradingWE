@@ -7,12 +7,14 @@ import HomeScreen from './pages/home';
 import SearchComponent from './componets/search';
 import TestimonialCard from './componets/testimonialcard';
 import Element from './componets/element';
+import Testimonial from './componets/testimonialcard';
 
 const App = () => {
   return (
     <Router>
       <MenuBar />
       <Element />
+      <Testimonial/>
       <Routes>
         <Route path="/" exact component={HomeScreen} />
        
