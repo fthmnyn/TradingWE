@@ -13,22 +13,16 @@ const Testimonial = () => {
             display: 'block'
         }}>
             <div className="testimonial" style={{
-                WebkitFontSmoothing: 'antialiased',
-                color: '#181B31',
-                fontSize: '0.875rem',
-                fontWeight: 400,
-                lineHeight: 1.43,
-                fontFamily: 'inherit',
-                width: '100%',
-                display: 'block',
-                boxSizing: 'border-box',
-                marginLeft: 'auto',
-                marginRight: 'auto',
-                paddingLeft: '40px',
-                paddingRight: '40px',
-                overflow: 'hidden',
-                paddingBottom: '120px',
-                paddingTop: '40px',
+
+WebkitFontSmoothing: 'antialiased',
+color: '#181B31',
+fontSize: '0.875rem',
+fontWeight: 400,
+lineHeight: 1.43,
+boxSizing: 'inherit',
+fontFamily: 'inherit',
+display: 'block',
+                
             }}>
                 <div className="testimonial-container" style={{
                     WebkitFontSmoothing: 'antialiased',
@@ -122,11 +116,15 @@ const Testimonial = () => {
                         }}>
                             <div className="testimonial-quote-img" style={{
                                 WebkitFontSmoothing: 'antialiased',
-                                fontFamily: 'inherit',
-                                color: 'rgb(255, 255, 255)',
+                                color: '#fff',
                                 fontSize: '1.25rem',
                                 fontWeight: 500,
                                 lineHeight: 1.2,
+                                boxSizing: 'inherit',
+                                fontFamily: 'inherit',
+                                top: '-22px',
+                                right: '3px',
+                                position: 'absolute',
                             }}>
                                 <img width="44" height="31" src="https://www.wallstreetzen.com/packs/media/images/plans-image-1-quote-5e22ca724b6ce9b8b867cdf638c1be05.png" alt="Quote Icon" />
                             </div>
