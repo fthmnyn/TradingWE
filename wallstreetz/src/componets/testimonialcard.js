@@ -14,15 +14,15 @@ const Testimonial = () => {
         }}>
             <div className="testimonial" style={{
 
-WebkitFontSmoothing: 'antialiased',
-color: '#181B31',
-fontSize: '0.875rem',
-fontWeight: 400,
-lineHeight: 1.43,
-boxSizing: 'inherit',
-fontFamily: 'inherit',
-display: 'block',
-                
+                WebkitFontSmoothing: 'antialiased',
+                color: '#181B31',
+                fontSize: '0.875rem',
+                fontWeight: 400,
+                lineHeight: 1.43,
+                boxSizing: 'inherit',
+                fontFamily: 'inherit',
+                display: 'block',
+
             }}>
                 <div className="testimonial-container" style={{
                     WebkitFontSmoothing: 'antialiased',
@@ -153,18 +153,16 @@ display: 'block',
                             }}>
                                 <div className="testimonial-info-img" style={{
                                     WebkitFontSmoothing: 'antialiased',
+                                    WebkitFontSmoothing: 'antialiased',
                                     color: '#fff',
                                     fontSize: '1.25rem',
                                     fontWeight: 500,
                                     lineHeight: 1.2,
                                     boxSizing: 'inherit',
                                     fontFamily: 'inherit',
-                                    display: 'flex',
-                                    marginTop: '32px',
-                                    alignItems: 'center',
-                                    marginRight: '13px', // New style property
+                                    marginRight: '13px',
                                 }}>
-                                    <img width="44" height="44" src="https://www.wallstreetzen.com/packs/media/images/main-testimonial-1-29c05e18c81517fdc1e148d6b06173b9.png" alt="User Avatar" style={{
+                                    <picture style={{
                                         WebkitFontSmoothing: 'antialiased',
                                         color: '#fff',
                                         fontSize: '1.25rem',
@@ -172,7 +170,21 @@ display: 'block',
                                         lineHeight: 1.2,
                                         boxSizing: 'inherit',
                                         fontFamily: 'inherit',
-                                    }} />
+                                    }}>
+                                        <source
+                                            type="image/webp"
+                                            srcSet="https://www.wallstreetzen.com/packs/media/images/main-testimonial-1-236076341a242ee6946304af78691d39.webp 1x, https://www.wallstreetzen.com/packs/media/images/main-testimonial-1@2x-fb3b0a687169a85ace0f3c69b8a4d257.webp 2x"
+                                        />
+                                        <img width="44" height="44" src="https://www.wallstreetzen.com/packs/media/images/main-testimonial-1-29c05e18c81517fdc1e148d6b06173b9.png" alt="User Avatar" style={{
+                                            WebkitFontSmoothing: 'antialiased',
+                                            color: '#fff',
+                                            fontSize: '1.25rem',
+                                            fontWeight: 500,
+                                            lineHeight: 1.2,
+                                            boxSizing: 'inherit',
+                                            fontFamily: 'inherit',
+                                        }} />
+                                    </picture>
                                 </div>
                                 <div className="testimonial-info-content" style={{
                                     WebkitFontSmoothing: 'antialiased',
