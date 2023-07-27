@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../componets/navbar';
-import Footer from '../componets/footer';
+import Element from '../componets/element';
+import Testimonial  from '../componets/testimonialcard';
+import MenuBar from '../componets/navbar';
 
 const HomeScreen = () => {
   return (
-    <div>
-     
-   
+    <div className='home-page'>
+      
       
     </div>
   );
